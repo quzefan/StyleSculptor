@@ -12,7 +12,7 @@
     ·
     <a href="https://rfidblog.org.uk/"><strong>Gerhard Hancke</strong></a>
     ·
-    <a href="https://www.cs.cityu.edu.hk/~rynson/"><strong>Rynson Lau</strong></a>
+    <a href="https://www.cs.cityu.edu.hk/~rynson/"><strong>Rynson W.H. Lau</strong></a>
     <br>
     <br>
         <a href="https://arxiv.org/abs/2509.13301"><img src='https://img.shields.io/badge/arXiv-AntiReference' alt='PDF - todo'></a>
