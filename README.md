@@ -23,7 +23,7 @@
   <table align="center">
     <tr>
     <td>
-      <img src="figs/teaser.png" alt='teaser1'>
+      <img src="figs/teaser1.png" alt='teaser1'>
     </td>
     </tr>
   </table>
