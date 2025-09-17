@@ -16,8 +16,6 @@
     <br>
     <br>
         <a href="https://arxiv.org/abs/2509.13301"><img src='https://img.shields.io/badge/arXiv-AntiReference' alt='PDF - todo'></a>
-        <!-- <a href='https://StyleSculptor.github.io'><img src='https://img.shields.io/badge/Project_Page-AntiReference' alt='Project Page - todo'></a> -->
-        <!-- <a href='https://huggingface.co/spaces/zcxu-eric/magicanimate'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a> -->
     <br>
     <b>City University of Hong Kong</b>
   </p>
@@ -25,11 +23,10 @@
   <table align="center">
     <tr>
     <td>
-      <img src="assets/teaser.png" alt='teaser1'>
+      <img src="figs/teaser.png" alt='teaser1'>
     </td>
     </tr>
   </table>
 
 ## 📢 News
-* **[Jun.26.2025]** DiffSim is accepted to ICCV 2025 🍀.
-* **[Dec.19.2024]** Release DiffSim paper and source codes.
+* **[Aug.10.2025]** StyleSculptor is accepted to SIGGRAPH Asia 2025 🍀. The code is still being organized. Stay tuned！
