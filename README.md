@@ -8,7 +8,7 @@
     ·
     <a href="https://www.whyy.site/"><strong>Haoyuan Wang</strong></a>
     ·
-    <a href="https://www.whyy.site/"><strong>Ke Xu</strong></a>
+    <a href="https://kkbless.github.io/"><strong>Ke Xu</strong></a>
     ·
     <a href="https://rfidblog.org.uk/"><strong>Gerhard Hancke</strong></a>
     ·
