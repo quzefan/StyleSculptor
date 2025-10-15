@@ -2,23 +2,29 @@
 
   <h2 align="center">StyleSculptor: Zero-Shot Style-Controllable 3D Asset Generation with Texture-Geometry Dual Guidance</h2>
   <p align="center">
-    <a href="https://quzefan.github.io/"><strong>Zefan Qu</strong></a>
-    ·
-    <a href="https://zhenwwang.github.io/"><strong>Zhenwei Wang</strong></a>
-    ·
-    <a href="https://www.whyy.site/"><strong>Haoyuan Wang</strong></a>
-    ·
-    <a href="https://kkbless.github.io/"><strong>Ke Xu</strong></a>
-    ·
-    <a href="https://rfidblog.org.uk/"><strong>Gerhard Hancke</strong></a>
-    ·
-    <a href="https://www.cs.cityu.edu.hk/~rynson/"><strong>Rynson W.H. Lau</strong></a>
-    <br>
-    <br>
-        <a href="https://arxiv.org/abs/2509.13301"><img src='https://img.shields.io/badge/arXiv-AntiReference' alt='PDF - todo'></a>
-        <a href="https://StyleSculptor.github.io"><img src="https://img.shields.io/badge/Project%20Page-StyleSculptor-blue" alt="Project Page"></a>
+    <p align="center">
+        <a href="https://quzefan.github.io/"><strong>Zefan Qu</strong></a> &middot;
+        <a href="https://zhenwwang.github.io/"><strong>Zhenwei Wang</strong></a> &middot;
+        <a href="https://www.whyy.site/"><strong>Haoyuan Wang</strong></a> &middot;
+        <a href="https://kkbless.github.io/"><strong>Ke Xu</strong></a> &middot;
+        <a href="https://rfidblog.org.uk/"><strong>Gerhard Hancke</strong></a> &middot;
+        <a href="https://www.cs.cityu.edu.hk/~rynson/"><strong>Rynson W.H. Lau</strong></a>
+        <br><br>
+        <b>City University of Hong Kong</b>
+        <br><br>
+        SIGGRAPH Asia 2025
+        <br><br>
+        <a href="https://arxiv.org/abs/2509.13301">
+            <img src="https://img.shields.io/badge/arXiv-AntiReference" alt="arXiv">
+        </a>
+        <a href="https://StyleSculptor.github.io">
+            <img src="https://img.shields.io/badge/Project%20Page-StyleSculptor-blue" alt="Project Page">
+        </a>
+        <br><br>
+        <img src="figs/teaser1.png" alt="StyleSculptor Teaser" width="80%">
         <br>
-    <b>City University of Hong Kong</b>
+        <!-- <b>City University of Hong Kong</b> -->
+    </p>
   </p>
 
 ## 📢 News
