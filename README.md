@@ -75,7 +75,7 @@ TrellisImageTo3DPipeline.from_pretrained("/path/to/TRELLIS-image-large")
 
  The edge map of each style images should be provided. The format can be referred in ```./asset/style_image_edge folder```.
 
- We use <a href="https://github.com/microsoft/TRELLIS/"><strong>PidiNet</strong></a> to generate the edge map for style images.
+ We use <a href="https://github.com/hellozhuo/pidinet"><strong>PidiNet</strong></a> to generate the edge map for style images.
 
  ⭐⭐Make sure there is **main object** in the content and style images. If not, please turn off the **rembg** operation in the data preprocessing stage.
 
