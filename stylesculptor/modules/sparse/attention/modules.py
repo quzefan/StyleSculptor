@@ -27,18 +27,9 @@ def adaptive_instance_normalization(content_feat, style_feat):
     return normalized_feat * style_std.expand(size) + style_mean.expand(size)
 
 def find_cross_content_channels(k2_feats, k3_feats, num_channels_to_zero=512):
-    """
-    找到k2_feats和k3_feats之间最相似的num_channels_to_zero个通道，并将这些通道设为0。
-    
-    :param k2_feats: 输入特征张量，shape为(N, 1024)
-    :param k3_feats: 输入特征张量，shape为(N, 1024)
-    :param num_channels_to_zero: 需要置零的通道数，默认为512
-    :return: 处理后的k2_feats
-    """
     assert k2_feats.shape == k3_feats.shape, "k2_feats and k3_feats must have the same shape"
-    N, C = k2_feats.shape  # N是patch数量，C是维度数
+    N, C = k2_feats.shape  
     
-    # 计算每个通道的相关系数
     similarities = torch.zeros(C, device=k2_feats.device)
     for i in range(C):
         k2_channel = k2_feats[:, i]
@@ -46,21 +37,17 @@ def find_cross_content_channels(k2_feats, k3_feats, num_channels_to_zero=512):
         covariance = torch.mean((k2_channel - k2_channel.mean()) * (k3_channel - k3_channel.mean()))
         std_k2 = torch.std(k2_channel)
         std_k3 = torch.std(k3_channel)
-        similarities[i] = covariance / (std_k2 * std_k3 + 1e-5)  # 避免除以零
+        similarities[i] = covariance / (std_k2 * std_k3 + 1e-5)  
     
-    # 找到相关系数最高的num_channels_to_zero个通道
     _, topk_indices = torch.topk(similarities, num_channels_to_zero, largest=True)
     
-    # # 将这些通道设为0
     # k2_feats_zeroed = k2_feats.clone()
     # k2_feats_zeroed[:, topk_indices] = 0
     
     return topk_indices
 
 def find_one_content_channels(k2_feats, num_channels=512):
-    # 计算每个通道的方差
     variances = torch.var(k2_feats, dim=0)
-    # 找到方差最大的num_channels个通道
     _, max_variance_indices = torch.topk(variances, num_channels, largest=True)
     
     return max_variance_indices
